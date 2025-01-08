@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "LibreBaskerville";
+    src: url("./assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "RobotoSlab";
+    src: url("./assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    @apply bg-WhiteBackground dark:bg-DarkBackground dark:text-white;
+  }
+}
