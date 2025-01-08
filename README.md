@@ -1,9 +1,6 @@
-
 # AnkiAdd 2.0
-Automate the process of adding flashcards for English learners in Anki. For now, this project only gives English definitions and examples.
 
-
-
+Automate the process of adding flashcards for English learners in Anki. For now, this project only gives English definitions and examples. If you want to use this project in you google extension check [AnkiAdd2.0_Extension](https://github.com/maarcotulio/AnkiAdd2.0_Extension) for more information about it.
 
 ## Run Locally
 
@@ -38,6 +35,7 @@ Start the fe
 ```
 
 Open Anki and make sure to already have in your Add-ons the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) with these configurations.
+
 ```JSON
 {
     "apiKey": null,
@@ -51,8 +49,8 @@ Open Anki and make sure to already have in your Add-ons the [AnkiConnect](https:
 }
 ```
 
-
 ## Built With
+
 - [Dictionary API](https://dictionaryapi.dev/)
 - Nest.js
 - Vite
