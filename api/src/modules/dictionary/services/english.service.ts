@@ -10,7 +10,7 @@ export class EnglishService {
 
   async getDefs(word: string) {
     const response = await this.dictionaryApi.get(word);
-    return this.findDefinitions(response.data, "all");
+    return this.findDefinitions(response.data, "all", word);
   }
 
   async getListDefs(word: string[]) {

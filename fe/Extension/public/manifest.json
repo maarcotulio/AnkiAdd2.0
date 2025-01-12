@@ -1,0 +1,11 @@
+{
+  "name": "AnkiAdd 2.0",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "The project is a english dictionary and you can add flashcards with a example phrase, if exists, with the to Anki in simple and fast way.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
