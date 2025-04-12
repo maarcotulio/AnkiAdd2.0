@@ -19,6 +19,7 @@ export function useSearchBar({ onListWords }: useSearchBarProps) {
 
   function handlePressKey(event: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
       handleSearch();
     }
   }
